@@ -1,5 +1,4 @@
-package com.company;
-
+import com.company.Calculator;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -15,6 +14,6 @@ class CalculatorTest {
   void subtraction() {
     var calc = new Calculator();
 
-    assertEquals(10, calc.subtraction(15,5), "Answer should be 10.");
+    assertEquals(10, calc.subtraction(15,5),"Answer should be 10.");
   }
 }

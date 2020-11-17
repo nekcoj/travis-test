@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="travis-test" target="1.5" />
+      <module name="travis-test" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
